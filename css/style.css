@@ -176,6 +176,9 @@ main{
     font-size: 22px;
 }
 
+.afficher{
+    padding-top: 30px;
+}
 
 .photo-hebergement{
     display: flex;
@@ -405,7 +408,6 @@ h5{
     .liste-filtre{
         align-items: flex-start;
         width: 100%;
-        padding: 10px;
         padding-top: 5px;
         flex-wrap: wrap;
         padding-bottom: 1px;
@@ -419,6 +421,7 @@ h5{
     
     .filtre-card span{
         font-size: 16px;
+        font-size: small;
     }
 
     .filtre-card{
