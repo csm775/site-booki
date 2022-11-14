@@ -436,15 +436,21 @@ h5{
     }
 
     .filtre-card{
-        width: 45%;
+        width: 46%;
         margin-bottom: 10px;
         padding-left: 5px;
+        box-sizing: content-box;
     }
 
     #recherche{
         padding-left: 30px;
         padding-right: 30px;
     }
+
+    #recherche p i{
+        margin-bottom: 0;
+    }
+    
 
     #recherche button span{
         display: none;
