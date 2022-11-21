@@ -191,7 +191,6 @@ main{
     width: 100%;
     height: 124px;
     object-fit: cover;
-    border: 5px solid #FFFFFF;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -199,6 +198,14 @@ main{
     width: 31.33%;
     background: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 1px 4px 8px 0px rgb(153 142 142 / 50%);
+    padding: 5px;
+}
+
+.hotel-card:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: rgb(173, 177, 177);
 }
 
 .hotel-card h3{
@@ -237,7 +244,6 @@ main{
     width: 40%;
     height: 144px;
     object-fit: cover;
-    border: 5px solid #FFFFFF;
     border-radius: 20px 0px 0px 20px;
 }
 
@@ -296,6 +302,14 @@ main{
     margin-bottom: 30px;
     background: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 1px 4px 8px 0px rgb(153 142 142 / 50%);
+    padding: 5px;
+}
+
+.hotel-pop:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: rgb(173, 177, 177);
 }
 
 .hotel-pop h3{
@@ -329,6 +343,12 @@ main{
     padding: 5px;
     border-radius: 25px;
     box-shadow: 1px 4px 8px 0px rgb(153 142 142 / 50%);
+}
+
+.act:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+    background-color: rgb(173, 177, 177);
 }
 
 .act h3{
